@@ -16,7 +16,7 @@ const unlockList = ['1 pull request merged', '1 helpful issue (3+ reactions)', '
           > organisations, unlock roles on <NuxtLink to="https://discord.com/invite/nuxt" target="_blank">Nuxt Discord server</NuxtLink> and share your Nuxter profile.
         </p>
         <div>
-          <div class="mb-2">Unlock the <UBadge size="md" color="primary" variant="solid">nuxter</UBadge> role by having either:</div>
+          <div class="mb-2">Unlock the <UBadge size="md" color="primary" variant="solid">verified</UBadge> role by having either:</div>
           <ul class="flex flex-col gap-y-1 pt-1 text-base">
             <li v-for="item in unlockList" :key="item" class="flex gap-x-2">
               <UIcon name="i-heroicons-check-circle-20-solid" class="h-5 w-5 text-green-400" />
@@ -26,9 +26,6 @@ const unlockList = ['1 pull request merged', '1 helpful issue (3+ reactions)', '
             </li>
           </ul>
           <div class="w-20 h-[1px] bg-gray-700 mt-8 mb-4" />
-          <span class="italic text-gray-400 text-base">
-            Note that your details are stored in a secured cookie and only used to grant you roles on Discord.
-          </span>
         </div>
       </div>
       <HomeCard />

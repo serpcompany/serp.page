@@ -1,6 +1,6 @@
 <template>
     <div class="text-white">
-        <h2 class="text-3xl lg:text-4xl font-bold mb-12">They are already <span class="text-green-400">Nuxters</span></h2>
+        <h2 class="text-3xl lg:text-4xl font-bold mb-12">They are already <span class="text-green-400">verified</span></h2>
 
         <div class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
             <div

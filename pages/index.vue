@@ -1,7 +1,7 @@
 <script setup>
 
 useHead({
-  link: [{ rel: 'canonical', href: 'https://nuxters.nuxt.com' }],
+  link: [{ rel: 'canonical', href: 'https://serp.page' }],
 })
 
 useSeoMeta({
@@ -9,10 +9,10 @@ useSeoMeta({
   ogTitle: 'Are you a Nuxter?',
   description: 'Discover your contributions to unlock the nuxter role on Nuxt Discord server.',
   ogDescription: 'Discover your contributions to unlock the nuxter role on Nuxt Discord server.',
-  ogImage: 'https://nuxters.nuxt.com/social-card.jpg',
+  ogImage: 'https://serp.page.co/social-card.jpg',
   ogImageAlt: 'Nuxters',
-  twitterImage: 'https://nuxters.nuxt.com/social-card.jpg',
-  ogUrl: 'https://nuxters.nuxt.com'
+  twitterImage: 'https://serp.page.co/social-card.jpg',
+  ogUrl: 'https://serp.page.co'
 })
 </script>
 
