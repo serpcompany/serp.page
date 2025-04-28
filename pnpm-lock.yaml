@@ -57,6 +57,9 @@ importers:
       '@nuxtjs/plausible':
         specifier: ^1.2.0
         version: 1.2.0(magicast@0.3.5)
+      suppress-experimental-warnings:
+        specifier: ^2.0.0
+        version: 2.0.0
       wrangler:
         specifier: ^4.12.0
         version: 4.12.0
@@ -3703,6 +3706,10 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  suppress-experimental-warnings@2.0.0:
+    resolution: {integrity: sha512-qhKWoR1nw9MwQDjzPiBMus44Wj1+AD7EIa7caPcYXMASyB6NppO7k1a+xRjyDBpPS4ZufauFLyqaXEPnKXHY1Q==}
+    engines: {node: '>=18'}
 
   svg-tags@1.0.0:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
@@ -8542,6 +8549,10 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  suppress-experimental-warnings@2.0.0:
+    dependencies:
+      jiti: 1.21.6
 
   svg-tags@1.0.0: {}
 

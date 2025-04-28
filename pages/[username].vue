@@ -16,7 +16,7 @@ if (!contributor.value) {
 }
 
 const ogImageUrl = joinURL(origin, '/card/', contributor.value?.username || '', 'og.png')
-const contributorUrl = `nuxters.nuxt.com/${contributor.value?.username}`
+const contributorUrl = `serp.page/${contributor.value?.username}`
 const format = useNumberFormatter()
 
 defineOgImageComponent('Nuxter', {

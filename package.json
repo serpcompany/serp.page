@@ -1,8 +1,8 @@
 {
-  "name": "nuxtbot",
+  "name": "serp.page",
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "NODE_OPTIONS=--require=suppress-experimental-warnings nuxt dev",
     "build": "nuxt build",
     "logs": "wrangler pages deployment tail"
   },
@@ -11,6 +11,7 @@
     "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "^2.21.1",
     "@nuxtjs/plausible": "^1.2.0",
+    "suppress-experimental-warnings": "^2.0.0",
     "wrangler": "^4.12.0"
   },
   "dependencies": {
